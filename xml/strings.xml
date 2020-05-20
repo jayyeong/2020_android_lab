@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">TermProject</string>
+    <string name="hint_id">ID</string>
+    <string name="hint_pass">PASSWORD</string>
+    <string name="hint_name">NAME</string>
+
+    <string name="btn_login">SIGN IN</string>
+    <string name="btn_register">SIGN UP</string>
+    <string name="btn_like">LIKE!</string>
+    <string name="btn_hate">HATE!</string>
+    <string name="btn_soso">SOSO!</string>
+
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"뿌"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_login2">Sign in</string>
+    <string name="today_menu">Today Menu</string>
+</resources>
