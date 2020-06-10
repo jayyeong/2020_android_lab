@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/bg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="50dp"
+        tools:ignore="ExtraText">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/today_menu"
+            android:textColor="@color/colorPrimary"
+            android:textSize="50sp" />
+
+        <ImageView
+            android:src="@drawable/food"
+            android:layout_width="250dp"
+            android:layout_height="250dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/btn_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#FFA07A"
+            android:text="@string/btn_like"
+            android:textColor="#ffffff" />
+        <Button
+            android:id="@+id/btn_hate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#FFA07A"
+            android:text="@string/btn_hate"
+            android:textColor="#ffffff" />
+        <Button
+            android:id="@+id/btn_soso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="#FFA07A"
+            android:text="@string/btn_soso"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+</LinearLayout>
